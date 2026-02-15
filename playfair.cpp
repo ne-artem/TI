@@ -42,8 +42,9 @@ QVector<QVector<QChar>> Playfair::generateMatrix(const QString &key) {
                 if(alphabet.contains(clearKey[ind])){
                     mat[i][j] = clearKey[ind];
                     alphabet.removeOne(clearKey[ind]);
-                    ind++;
                 }
+                else j--;
+                ind++;
             }else {
                 mat[i][j] = *alphabet.begin();
                 alphabet.removeOne(mat[i][j]);
