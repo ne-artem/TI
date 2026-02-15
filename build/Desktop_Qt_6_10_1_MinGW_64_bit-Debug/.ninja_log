@@ -1,0 +1,23 @@
+# ninja log v7
+54	320	7928545744433440	lab1_autogen/timestamp	d7fef8adfbcac3ea
+54	320	7928545744433440	lab1_autogen/mocs_compilation.cpp	d7fef8adfbcac3ea
+54	320	7928545744433440	D:/UCHEBA/TI/lab1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/lab1_autogen/timestamp	d7fef8adfbcac3ea
+54	320	7928545744433440	D:/UCHEBA/TI/lab1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/lab1_autogen/mocs_compilation.cpp	d7fef8adfbcac3ea
+321	3283	7928545747238269	CMakeFiles/lab1.dir/mainwindow.cpp.obj	17e6a8fe0878f07c
+753	3256	7927173759067818	CMakeFiles/lab1.dir/lab1_autogen/mocs_compilation.cpp.obj	962ad2d08cba1444
+759	3323	7927173759127779	CMakeFiles/lab1.dir/main.cpp.obj	5a39509af4684ef0
+3283	3550	7928545776857657	lab1.exe	e82c301d15df9788
+215	1439	7928188615257984	CMakeFiles/lab1.dir/playfair.cpp.obj	ba0fe3f35de346f7
+219	1171	7928202993283839	CMakeFiles/lab1.dir/vigenere.cpp.obj	81e2ba54a8a5e192
+92	364	7928546383248361	lab1_autogen/timestamp	d7fef8adfbcac3ea
+92	364	7928546383248361	lab1_autogen/mocs_compilation.cpp	d7fef8adfbcac3ea
+92	364	7928546383248361	D:/UCHEBA/TI/lab1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/lab1_autogen/timestamp	d7fef8adfbcac3ea
+92	364	7928546383248361	D:/UCHEBA/TI/lab1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/lab1_autogen/mocs_compilation.cpp	d7fef8adfbcac3ea
+365	3432	7928546385984799	CMakeFiles/lab1.dir/mainwindow.cpp.obj	17e6a8fe0878f07c
+3432	3700	7928546416662423	lab1.exe	e82c301d15df9788
+57	298	7928550820202594	lab1_autogen/timestamp	d7fef8adfbcac3ea
+57	298	7928550820202594	lab1_autogen/mocs_compilation.cpp	d7fef8adfbcac3ea
+57	298	7928550820202594	D:/UCHEBA/TI/lab1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/lab1_autogen/timestamp	d7fef8adfbcac3ea
+57	298	7928550820202594	D:/UCHEBA/TI/lab1/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/lab1_autogen/mocs_compilation.cpp	d7fef8adfbcac3ea
+299	3485	7928550822659804	CMakeFiles/lab1.dir/mainwindow.cpp.obj	17e6a8fe0878f07c
+3485	3824	7928550854522325	lab1.exe	e82c301d15df9788
