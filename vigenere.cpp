@@ -19,6 +19,10 @@ QString Vigenere::encryptVigenere(const QString &input, const QString &key) {
         }
     }
 
+    if(processedKey.length()== 0 ){
+        return input;
+    }
+
     int ind = 0;
     for(int i = 0; i < input.length(); i++){
         if (alphabet.contains(input[i])){
@@ -45,6 +49,10 @@ QString Vigenere::decryptVigenere(const QString &input, const QString &key) {
         if (alphabet.contains(ch)) {
             processedKey.append(ch);
         }
+    }
+
+    if(processedKey.length()== 0 ){
+        return input;
     }
 
     int ind = 0;

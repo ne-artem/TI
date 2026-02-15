@@ -29,18 +29,19 @@ QString MainWindow::processText(const QString &input) {
         return QString();
     }
 
-    // !!! ПРЕОБРАЗУЕМ ВХОДНОЙ ТЕКСТ В ВЕРХНИЙ РЕГИСТР !!!
     QString processedInput = input.toUpper();
     QString processedKey = key.toUpper();
-    if (algorithmIdx == 0) { // Плейфейр (English)
+    if (algorithmIdx == 0) {
         return (modeIdx == 0) ? Playfair::encryptPlayfair(processedInput, processedKey) : Playfair::decryptPlayfair(processedInput, processedKey);
-    } else { // Виженер (Russian)
+    } else {
         return (modeIdx == 0) ? Vigenere::encryptVigenere(processedInput, processedKey) : Vigenere::decryptVigenere(processedInput, processedKey);
     }
 }
 
 void MainWindow::on_pushButExec_clicked() {
-    // 1. Получаем входные данные из интерфейса
+
+    ui->textEditRes->clear();
+
     QString input = ui->textEdit->toPlainText();
     if (input.isEmpty()) {
         QMessageBox::warning(this, "Внимание", "Введите текст в поле ввода!");
@@ -74,6 +75,7 @@ void MainWindow::on_pushButExec_clicked() {
 }
 
 void MainWindow::on_pushButExecFile_clicked() {
+    ui->textEditRes->clear();
 
     QString inPath = QFileDialog::getOpenFileName(this, "Выберите файл", "", "Text (*.txt);;All Files (*)");
     if (inPath.isEmpty()) return;
