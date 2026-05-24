@@ -1,0 +1,9 @@
+D:\UCHEBA\TI\lab4\lab4\bin\Debug\lab4.exe.config
+D:\UCHEBA\TI\lab4\lab4\bin\Debug\lab4.exe
+D:\UCHEBA\TI\lab4\lab4\bin\Debug\lab4.pdb
+D:\UCHEBA\TI\lab4\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+D:\UCHEBA\TI\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+D:\UCHEBA\TI\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+D:\UCHEBA\TI\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+D:\UCHEBA\TI\lab4\lab4\obj\Debug\lab4.exe
+D:\UCHEBA\TI\lab4\lab4\obj\Debug\lab4.pdb
